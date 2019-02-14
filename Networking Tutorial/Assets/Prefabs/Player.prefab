@@ -23,9 +23,9 @@ GameObject:
   - component: {fileID: 23384427751758596}
   - component: {fileID: 136724876809392188}
   - component: {fileID: 54764148985698162}
+  - component: {fileID: 114524790185007794}
   - component: {fileID: 114078421739557738}
   - component: {fileID: 114090042202209240}
-  - component: {fileID: 114486623185486192}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -301,7 +301,7 @@ MonoBehaviour:
   movementSpeed: 10
   rotationSpeed: 10
   jumpHeight: 2
---- !u!114 &114486623185486192
+--- !u!114 &114524790185007794
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -309,19 +309,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1063873083915170}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Script: {fileID: 11500000, guid: 3fe30255635e84e4b9c6e03fdbe4b508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TransformSyncMode: 3
-  m_SendInterval: 0.1
-  m_SyncRotationAxis: 7
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
+  lerpRate: 15
+  positionThreshold: 0.5
+  rotationThreshold: 5
 --- !u!136 &136407456667874294
 CapsuleCollider:
   m_ObjectHideFlags: 1
