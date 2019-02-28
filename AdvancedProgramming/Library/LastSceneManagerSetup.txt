@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Minesweeper/Scenes/Minesweeper.unity
+- path: Assets/Minesweeper/Scenes/Minesweeper3D.unity
   isLoaded: 1
   isActive: 1
