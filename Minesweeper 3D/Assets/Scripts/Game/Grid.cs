@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Minesweeper3D
 {
@@ -261,7 +259,7 @@ namespace Minesweeper3D
         void Update()
         {
             MouseOver();
-            UpdateGrid();
+            
         }
 
         void UpdateGrid()

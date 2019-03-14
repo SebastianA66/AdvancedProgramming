@@ -22,7 +22,7 @@ public class CameraOrbit : MonoBehaviour
     void LateUpdate()
     {
         // Check if the left mouse is pressed
-        if (Input.GetMouseButton(2))
+        if (Input.GetMouseButton(1))
         {
             float mouseX = Input.GetAxis("Mouse X");
             float mouseY = Input.GetAxis("Mouse Y");

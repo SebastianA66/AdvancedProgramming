@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minesweeper 3D", "Assembly-CSharp.csproj", "{1001B359-A451-A8D5-FF02-F6932584C5C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minesweeper 3D", "Assembly-CSharp-Editor.csproj", "{ED53FC06-011E-46BC-F62E-91FA28013C2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{1001B359-A451-A8D5-FF02-F6932584C5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1001B359-A451-A8D5-FF02-F6932584C5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1001B359-A451-A8D5-FF02-F6932584C5C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED53FC06-011E-46BC-F62E-91FA28013C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED53FC06-011E-46BC-F62E-91FA28013C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED53FC06-011E-46BC-F62E-91FA28013C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED53FC06-011E-46BC-F62E-91FA28013C2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
