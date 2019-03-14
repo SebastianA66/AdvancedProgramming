@@ -65,6 +65,12 @@
     <Compile Include="Assets\Scripts\Game\Grid.cs" />
     <Compile Include="Assets\Scripts\Game\Piece.cs" />
     <None Include="Assets\Skyboxes\BOXOPHOBIC\Skybox Cubemap Extended\Shaders\Skybox Cubemap Extended.shader" />
+    <Reference Include="Unity.ProGrids">
+      <HintPath>C:/Users/sebastian.alibrio3/Documents/GitHub/AdvancedProgramming/Checkers/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>C:/Users/sebastian.alibrio3/Documents/GitHub/AdvancedProgramming/Checkers/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/sebastian.alibrio3/Documents/GitHub/AdvancedProgramming/Checkers/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -76,12 +82,6 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/sebastian.alibrio3/Documents/GitHub/AdvancedProgramming/Checkers/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids">
-      <HintPath>C:/Users/sebastian.alibrio3/Documents/GitHub/AdvancedProgramming/Checkers/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/Users/sebastian.alibrio3/Documents/GitHub/AdvancedProgramming/Checkers/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
